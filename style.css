@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0; /*to remove browser's defalut border*/
+    box-sizing: border-box; /*remove extra padding and border*/
+    font-family: sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 25px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+.hero{
+    position: absolute; /* relative to parent if not parent then root elemnet i.e fulls screen*/
+    /* from these two entire section 'left corner will at cenetr position and all other will be in right that's ahy not lokking at center*/
+    top: 50%;
+    left :50%;
+    /*this will transform horizontal and vertical 50% of section own width and height*/
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero .container{
+    display: flex;
+    gap: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(23, 23, 23, 0.6);
+    box-shadow: 20px 20px 20px;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#box1{
+    background-color: rgb(235, 103, 103);
+}
+#box2{
+    background-color: rgba(124, 177, 124, 0.856);
+}
+#box3{
+    background-color: rgb(101, 101, 193);
+}
+#box4{
+    background-color: rgb(235, 235, 106);
+}
+#box5{
+    background-color: rgb(209, 82, 209);
+}
